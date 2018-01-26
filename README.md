@@ -17,7 +17,7 @@ in between
 
 
 
-const waterwalls = () => {
+const waterwalls = (array) => {
 	// highs = [];
 	// current high
 	// current low
