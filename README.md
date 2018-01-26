@@ -1,19 +1,19 @@
-#Waterfall
+# Waterfall
 find which walls have the most water trapped in it
 every number is an adjacent vertical pipe with a width of 1
 
 
-##input 
+## input 
 [1, 2, 3, 1, 2, 1, 3, 4] -> heights
 
-##output
+## output
 [2, 6, 5] -> [index, index, total-water]
 
-##high-strategy
+## high-strategy
 find the tips of the wells, and count the lesser values 
 in between
 
-##process
+## process
 
 
 
