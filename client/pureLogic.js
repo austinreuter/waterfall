@@ -3,6 +3,4 @@ const test = () => {
   
 }
 
-module.exports = {
-  test: test
-}
+export test;

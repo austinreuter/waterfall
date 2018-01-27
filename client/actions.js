@@ -1,4 +1,4 @@
-const { test } = require('./pureLogic.js');
+import { test } from './pureLogic.js';
 const ajax = require('ajax');
 
 $(document).ready(function() {
@@ -7,5 +7,5 @@ $(document).ready(function() {
 	});
   $('#userButton').on('click', () => {
 
-  });
+  }); 
 });
