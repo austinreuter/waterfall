@@ -21,6 +21,7 @@
     "ajax": "0.0.4",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "path": "^0.12.7",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

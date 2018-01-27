@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const { port } = require('./constants.js');
 const { calcWater } = require('./routes.js');
 const _ = require('underscore');
+const path = require('path');
 
 app.use(express.static(path.join(__dirname, '../client')));
 
