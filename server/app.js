@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const { port } = require('./constants.js');
+const { PORT } = require('./constants.js');
 const { calcWater } = require('./routes.js');
 const _ = require('underscore');
 const path = require('path');
@@ -15,6 +15,6 @@ app.get('/', (req, res) => {
 });
 app.get('/calcWater', calcWater);
 
-app.listen(3000, () => {
-	console.log(`listening on port: ${port}`);
+app.listen(PORT, () => {
+	console.log(`listening on port: ${PORT}`);
 })
