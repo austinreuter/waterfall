@@ -3,6 +3,9 @@ const app = express();
 const bodyParser = require('body-parser');
 const { port } = require('./constants.js');
 const { calcWater } = require('./routes.js');
+const _ = require('underscore');
+
+app.use(express.static(path.join(__dirname, '../client')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
