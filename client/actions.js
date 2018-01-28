@@ -1,4 +1,4 @@
-import { test } from './pureLogic.js';
+const { test } = require('./pureLogic.js');
 const ajax = require('ajax');
 
 $(document).ready(function() {
