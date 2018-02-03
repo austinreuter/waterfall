@@ -1,6 +1,10 @@
-
 const test = () => {
-  
+  console.log('sup')
 }
 
-export test;
+module.exports = {
+	test: test
+};
+
+
+

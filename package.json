@@ -7,7 +7,7 @@
     "test": "jest",
     "babel": "babel --presets es2015 server/app.js -o client/main.bundle.js",
     "webpack": "webpack --watch",
-    "browserify": "browserify server/app.js -o client/bundle.js"
+    "browserify": "browserify client/actions.js -o client/bundle.js"
   },
   "repository": {
     "type": "git",
