@@ -17,23 +17,13 @@ in between
 
 
 
-const waterwalls = (array) => {
-	// highs = [];
-	// current high
-	// current low
-
-	// if change of current high, current low becomes changed
-
-
-  // possibly like sorting algos,
-  // start with highest, until find val
-    with same height
-
-  // find the highest values on the sides
-    // and look in
-    // subset within highest values with peaks
-
-
-	
+const waterwalls = (heights) => {
+  -brute force O(n^2)- 
+    // set max area to 0 and result to []
+    // for each item in height at index i
+      // for each item in height at index j
+        // max area is the maximum between current max area and the (minimumbetweenheight[i] and height[j]) * (distance between index j and index i)
+        // replace results array with [max area, i, j]
+    // return results array	
 
 }
